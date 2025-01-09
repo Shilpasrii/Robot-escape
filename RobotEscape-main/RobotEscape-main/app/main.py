@@ -8,7 +8,7 @@ SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 600
 
 # Create screen
-# size argument in set_mode requires tuple - it is immutable - changed ,modified
+# size argument in set_mode requires tuple - as it is immutable - changed ,modified
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("RobotEscape")
 
